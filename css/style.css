@@ -1,0 +1,864 @@
+@import "null.css";
+
+.body {
+	background-color: #7ea57e;
+}
+
+.main__image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: .0;
+}
+
+.car__pickup {
+	/* display: block; */
+	/* margin-left: auto;
+	margin-right: auto; */
+}
+
+.car__body {
+	/* border-bottom: 80px solid #2F73B6;
+	border-left: 120px solid transparent;
+	border-right: 20px solid transparent;
+	height: 0; 
+	width: 420px;
+	margin:20px auto;
+	position: relative;
+	top: -470px;
+	left: -50px; */
+	/* opacity: .10; */
+}
+
+.car__rama {
+	width: 670px;
+	height: 26px;
+	background-color: rgb(59, 59, 59);
+	position: relative;
+	top: 426px;
+	left: 400px;
+	transform: translateX(-0%) skew(-50deg, 0deg);
+	box-shadow: inset 0px 5px 10px  rgba(0, 0, 0, 1);
+}
+
+.cab__detail-lattice {
+	width: 12px;
+	height: 60px;
+	background: rgb(214, 214, 214);
+	position: absolute;
+	top: 315px;
+	left: 276px;
+	transform: translateX(-50%) skew(5deg, 0deg);
+	border-radius: 10px 0px 0px 0px;
+	box-shadow: inset -3px 0px 3px rgba(0, 0, 0, 0.5);
+}
+
+.cab__glass {
+	width: 32px;
+	height: 62px;
+	background: rgb(60, 76, 87);
+	position: absolute;
+	top: 224px;
+	left: 516px;
+	transform: translateX(-50%) skew(-57deg, 0deg);
+	box-shadow: inset -3px 0px 3px rgba(0, 0, 0, 1);
+	opacity: .4;
+}
+
+.cab__glass-one {
+	width: 0;
+	height: 0;
+	border-bottom: 150px solid rgb(60, 76, 87);
+	border-right: 200px solid transparent;
+	transform: scale(-1, 1);
+	position: absolute;
+	top: 218px;
+	left: 405px;
+	opacity: .4;
+}
+
+.cab__glass-two {
+	width: 240px;
+	height: 80px;
+	background: rgb(60, 76, 87);
+	position: absolute;
+	top: 218px;
+	left: 725px;
+	transform: translateX(-50%) skew(0deg, 0deg);
+	opacity: .4;
+}
+
+.cab__detail-one {
+	width: 140px;
+	height: 15px;
+	background: linear-gradient(0deg, rgba(5, 117, 182, 1) 0%, rgb(8, 162, 252) 100%);
+	position: absolute;
+	top: 206px;
+	left: 615px;
+	transform: translateX(-50%) skew(0deg, -3.8deg);
+	border-radius: 90% 10% 0% 0%;
+}
+
+.cab__detail-two {
+	width: 167px;
+	height: 15px;
+	background: linear-gradient(0deg, rgba(5, 117, 182, 1) 0%, rgb(8, 162, 252) 100%);
+	position: absolute;
+	top: 202px;
+	left: 766px;
+	transform: translateX(-50%) skew(0deg, 0deg);
+	border-radius: 0% 50% 0% 0%;
+}
+
+.cab__detail-three {
+	width: 35px;
+	height: 85px;
+	background: rgb(5, 117, 182);
+	position: absolute;
+	top: 217px;
+	left: 842px;
+	transform: translateX(-50%) skew(12deg, 0deg);
+	border-radius: 0% 0% 0% 0%;
+}
+
+.cab__detail-four {
+	width: 30px;
+	height: 90px;
+	background: rgb(5, 117, 182);
+	position: absolute;
+	top: 222px;
+	left: 523px;
+	transform: translateX(-50%) skew(-55deg, -5deg);
+	border-radius: 0% 0% 0% 0%;
+}
+
+.cab__detail-five {
+	width: 18px;
+	height: 85px;
+	background: rgb(51, 51, 51);
+	position: absolute;
+	top: 217px;
+	left: 678px;
+	transform: translateX(-50%) skew(-7deg, 0deg);
+	border-radius: 0% 0% 0% 0%;
+}
+
+.cab__detail-six {
+	width: 18px;
+	height: 85px;
+	background: rgb(51, 51, 51);
+	position: absolute;
+	top: 217px;
+	left: 690px;
+	transform: translateX(-50%) skew(0deg, 0deg);
+	border-radius: 0% 0% 0% 0%;
+}
+
+.cab__detail-seven {
+	width: 50px;
+	height: 40px;
+	background: rgb(51, 51, 51);
+	position: absolute;
+	top: 280px;
+	left: 514px;
+	transform: translateX(-50%) skew(-10deg, -35deg);
+	border-radius: 0% 0% 0% 0%;
+}
+
+.cab__detail-eight {
+	width: 290px;
+	height: 3px;
+	background: rgb(51, 51, 51);
+	position: absolute;
+	top: 293px;
+	left: 676px;
+	transform: translateX(-50%) skew(0deg, -1deg);
+	border-radius: 0% 0% 0% 0%;
+}
+
+.cab__detail-nine {
+	width: 84px;
+	height: 3px;
+	background: rgb(51, 51, 51);
+	position: absolute;
+	top: 219px;
+	left: 642px;
+	transform: translateX(-50%) skew(0deg, -3.8deg);
+	border-radius: 0% 0% 0% 0%;
+}
+
+.cab__detail-ten {
+	width: 132px;
+	height: 3px;
+	background: rgb(51, 51, 51);
+	position: absolute;
+	top: 216px;
+	left: 750px;
+	transform: translateX(-50%) skew(0deg, 0deg);
+	border-radius: 0% 0% 0% 0%;
+}
+
+.cab__detail-eleven {
+	width: 3px;
+	height: 64px;
+	background: rgb(51, 51, 51);
+	position: absolute;
+	top: 216px;
+	left: 823px;
+	transform: translateX(-50%) skew(12deg, 0deg);
+	border-radius: 0% 0% 0% 0%;
+}
+
+.cab__detail-twelve {
+	width: 3.4px;
+	height: 14px;
+	background: rgb(51, 51, 51);
+	position: absolute;
+	top: 280px;
+	left: 825px;
+	transform: translateX(-50%) skew(-34deg, 0deg);
+	border-radius: 0% 0% 0% 0%;
+}
+
+.cab__detail-thirteen {
+	width: 5px;
+	height: 78px;
+	background: rgb(51, 51, 51);
+	position: absolute;
+	top: 222px;
+	left: 547px;
+	transform: translateX(-50%) skew(-55deg, 0deg);
+	border-radius: 0% 0% 0% 0%;
+}
+
+.cab__detail-fourteen {
+	width: 12px;
+	height: 15px;
+	background: rgb(5, 117, 182);
+	position: absolute;
+	top: 280px;
+	left: 832px;
+	transform: translateX(-50%) skew(-34deg, 0deg);
+	border-radius: 0% 0% 0% 0%;
+}
+
+.cab__detail-fifteen {
+	width: 870px;
+	height: 110px;
+	background: rgb(5, 117, 182);
+	position: absolute;
+	top: 295px;
+	left: 715px;
+	transform: translateX(-50%) skew(5deg, -1deg);
+	border-radius: 20% 5% 10% 20%;
+}
+
+.cab__detail-sixteen {
+	width: 350px;
+	height: 50px;
+	background: rgb(70, 76, 80);
+	position: absolute;
+	top: 382px;
+	left: 660px;
+	transform: translateX(-50%) skew(15deg, 0deg);
+	border-radius: 0% 0% 0% 0%;
+	box-shadow: inset 0px -20px 15px -15px rgba(0, 0, 0, 0.5);
+}
+
+.cab__detail-seventeen {
+	width: 50px;
+	height: 50px;
+	background: rgb(70, 76, 80);
+	position: absolute;
+	top: 382px;
+	left: 835px;
+	transform: translateX(-50%) skew(-15deg, 0deg);
+	border-radius: 0% 0% 0% 0%;
+	box-shadow: inset 0px -20px 15px -15px rgba(0, 0, 0, 0.5);
+}
+
+.headlight-front__detail-one{
+	width: 35px;
+	height: 30px;
+	background: rgb(159, 196, 221);
+	position: absolute;
+	top: 330px;
+	left: 312px;
+	transform: translateX(-50%) skew(-25deg, 0deg);
+	border-radius: 0% 0% 0% 0%;
+	box-shadow: 0px 0px 3px  rgba(0, 0, 0, 0.5);
+}
+
+.headlight-front__detail-two {
+	width: 35px;
+	height: 30px;
+	background: rgb(159, 196, 221);
+	position: absolute;
+	top: 330px;
+	left: 296px;
+	transform: translateX(-50%) skew(5deg, 0deg);
+	border-radius: 0% 0% 0% 0%;
+	box-shadow: 0px -20px 15px -15px rgba(0, 0, 0, 0.5);
+}
+
+.headlight-front__detail-three {
+	width: 28px;
+	height: 22px;
+	background: rgb(122, 178, 216);
+	position: absolute;
+	top: 334px;
+	left: 292px;
+	transform: translateX(-50%) skew(5deg, 0deg);
+	border-radius: 0% 0% 0% 0%;
+	box-shadow: 0px -20px 15px -15px rgba(0, 0, 0, 0.5);
+}
+
+.headlight-front__detail-four {
+	width: 28px;
+	height: 22px;
+	background: rgb(122, 178, 216);
+	position: absolute;
+	top: 334px;
+	left: 298px;
+	transform: translateX(-50%) skew(-24deg, 0deg);
+	border-radius: 0% 0% 0% 0%;
+	box-shadow: 0px -20px 15px -15px rgba(0, 0, 0, 0.5);
+}
+
+.headlight-front__detail-five {
+	width: 14px;
+	height: 22px;
+	background: rgb(209, 118, 43);
+	position: absolute;
+	top: 334px;
+	left: 322px;
+	transform: translateX(-50%) skew(-24deg, 0deg);
+	border-radius: 0% 0% 0% 0%;
+	z-index: 1;
+}
+
+.headlight-rear__detail-one {
+	width: 20px;
+	height: 58px;
+	background: rgb(53, 59, 63);
+	position: absolute;
+	top: 300px;
+	left: 1140px;
+	transform: translateX(-50%) skew(5deg, 0deg);
+}
+
+.headlight-rear__detail-two {
+	width: 20px;
+	height: 58px;
+	background: rgb(53, 59, 63);
+	position: absolute;
+	top: 300px;
+	left: 1130px;
+	transform: translateX(-50%) skew(-14deg, 0deg);
+}
+
+.headlight-rear__detail-three {
+	width: 20px;
+	height: 50px;
+	background: rgb(173, 41, 41);
+	position: absolute;
+	top: 303px;
+	left: 1142px;
+	border-radius: 20% 20% 20% 0%;
+	transform: translateX(-50%) skew(5deg, 0deg);
+}
+
+.headlight-rear__detail-four {
+	width: 18px;
+	height: 50px;
+	background: rgb(173, 41, 41);
+	position: absolute;
+	top: 303px;
+	left: 1134px;
+	border-radius: 0% 20% 20% 0%;
+	transform: translateX(-50%) skew(-14deg, 0deg);
+}
+
+.headlight-rear__detail-five {
+	width: 20px;
+	height: 10px;
+	background: rgb(122, 178, 216);
+	position: absolute;
+	top: 338px;
+	left: 1144px;
+	transform: translateX(-50%) skew(5deg, 0deg);
+}
+
+.headlight-rear__detail-six {
+	width: 20px;
+	height: 10px;
+	background: rgb(122, 178, 216);
+	position: absolute;
+	top: 338px;
+	left: 1138px;
+	transform: translateX(-50%) skew(-14deg, 0deg);
+}
+
+.bumper-front__detail-one {
+	width: 35px;
+	height: 48px;
+	background: rgb(70, 76, 80);
+	position: absolute;
+	top: 398px;
+	left: 312px;
+	transform: translateX(-50%) skew(-15deg, 0deg);
+	border-radius: 0% 0% 0% 0%;
+	box-shadow: inset 0px -20px 15px -15px rgba(0, 0, 0, 0.5);
+}
+
+.bumper-front__detail-two {
+	width: 39px;
+	height: 50px;
+	background: rgb(70, 76, 80);
+	position: absolute;
+	top: 396px;
+	left: 290px;
+	transform: translateX(-50%) skew(16deg, 5deg);
+	border-radius: 0% 0% 0% 0%;
+	box-shadow: inset 0px -20px 15px -15px rgba(0, 0, 0, 0.5);
+}
+
+.bumper-front__detail-three {
+	width: 74px;
+	height: 15px;
+	background: linear-gradient(0deg, rgba(70, 76, 80) 0%, rgb(101, 111, 116) 100%);
+	/* background: rgb(70, 76, 80); */
+	position: absolute;
+	top: 374px;
+	left: 305px;
+	transform: translateX(-50%) skew(-30deg, 0deg);
+	border-radius: 0% 0% 0% 0%;
+	box-shadow: 2px -1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.bumper-front__detail-four {
+	width: 75px;
+	height: 10px;
+	background: rgb(70, 76, 80);
+	position: absolute;
+	top: 388px;
+	left: 301px;
+	transform: translateX(-50%) skew(-0deg, 0deg);
+	border-radius: 0% 0% 0% 0%;
+}
+
+.bumper-rear__detail-one {
+	width: 56px;
+	height: 28px;
+	background: rgb(70, 76, 80);
+	position: absolute;
+	top: 396px;
+	left: 1134px;
+	transform: translateX(-50%) skew(-15deg, -5deg);
+	border-radius: 0% 0% 0% 0%;
+	box-shadow: inset 0px -20px 15px -15px rgba(0, 0, 0, 0.5);
+}
+
+.bumper-rear__detail-two {
+	width: 44px;
+	height: 28px;
+	background: rgb(70, 76, 80);
+	position: absolute;
+	top: 398px;
+	left: 1088px;
+	transform: translateX(-50%) skew(0deg, 0deg);
+	box-shadow: inset 0px -20px 15px -15px rgba(0, 0, 0, 0.5);
+}
+
+.bumper-rear__detail-three {
+	width: 100px;
+	height: 15px;
+	background: linear-gradient(0deg, rgba(70, 76, 80) 0%, rgb(101, 111, 116) 100%);
+	position: absolute;
+	top: 374px;
+	left: 1111px;
+	transform: translateX(-50%) skew(30deg, 0deg);
+	box-shadow: -2px -1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.bumper-rear__detail-four {
+	width: 100px;
+	height: 10px;
+	background: rgb(70, 76, 80);
+	position: absolute;
+	top: 388px;
+	left: 1115px;
+	transform: translateX(-50%) skew(-0deg, 0deg);
+	border-radius: 0% 0% 0% 0%;
+}
+
+.cab__wheel-arch-front {
+	background: linear-gradient(0deg, rgba(36, 36, 36, 0.8) 0%, rgb(36, 36, 36, 1) 100%);
+	/* background-color: rgb(36, 36, 36); */
+	width: 155px;
+	height: 98px;
+	border-radius: 70% 70%/ 100% 100% 0 0;
+	position: relative;
+	left: 327px;
+	top: 178px;
+	box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.8);
+	z-index: 1;
+}
+
+.wheel-arch__detail-front {
+	background-color: rgb(56, 56, 56);
+	width: 175px;
+	height: 110px;
+	border-radius: 70% 70%/ 100% 100% 0 0;
+	position: relative;
+	left: 317px;
+	top: 276px;
+	box-shadow: inset 0px 10px 20px rgba(167, 167, 167, 0.8), 0px 0px 5px rgba(24, 24, 24, 0.8);
+	z-index: 1;
+}
+
+.cab__wheel-arch-rear {
+	background-color: rgb(36, 36, 36);
+	width: 155px;
+	height: 90px;
+	border-radius: 60% 60%/ 100% 100% 0 0;
+	position: relative;
+	left: 906px;
+	top: -22px;
+	box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.8);
+	z-index: 1;
+}
+
+.wheel-arch__detail-rear {
+	background-color: rgb(56, 56, 56);
+	width: 175px;
+	height: 100px;
+	border-radius: 60% 60%/ 100% 100% 0 0;
+	position: relative;
+	left: 896px;
+	top: 68px;
+	box-shadow: inset 0px 10px 20px rgba(167, 167, 167, 0.8), 0px 0px 5px rgba(24, 24, 24, 0.8);
+	z-index: 1;
+}
+
+.cab__detail-eighteen {
+	width: 350px;
+	height: 16px;
+	border-radius: 10px;
+	background: rgb(93, 102, 107);
+	position: absolute;
+	top: 432px;
+	left: 500px;
+	box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.cab__detail-nineteen {
+	width: 40px;
+	height: 50px;
+	background: rgb(5, 117, 182);
+	position: absolute;
+	top: 382px;
+	left: 885px;
+	transform: translateX(-50%) skew(-15deg, 0deg);
+	border-radius: 0% 0% 0% 0%;
+	box-shadow: inset 0px -20px 15px -15px rgba(0, 0, 0, 0.5);
+}
+
+.cab__detail-twenty {
+	width: 6px;
+	height: 50px;
+	background: rgb(34, 91, 126);
+	position: absolute;
+	top: 382px;
+	left: 863px;
+	transform: translateX(-50%) skew(-15deg, 0deg);
+	border-radius: 0% 0% 0% 0%;
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cab__detail-twenty-one {
+	width: 6.2px;
+	height: 90px;
+	background: rgb(34, 91, 126);
+	position: absolute;
+	top: 292px;
+	left: 870px;
+	transform: translateX(-50%) skew(0deg, 0deg);
+	border-radius: 0% 0% 0% 0%;
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.car__door-one {
+	width: 2px;
+	height: 64px;
+	background: rgba(0, 0, 0, 0.021);
+	position: absolute;
+	top: 288px;
+	left: 840px;
+	transform: translateX(-50%) skew(0deg, 0deg);
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.car__door-two {
+	width: 2px;
+	height: 66px;
+	background: rgba(0, 0, 0, 0.021);
+	position: absolute;
+	top: 352px;
+	left: 834px;
+	transform: translateX(-50%) skew(-10deg, 0deg);
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.car__door-three {
+	width: 2px;
+	height: 76px;
+	background: rgba(0, 0, 0, 0.021);
+	position: absolute;
+	top: 212px;
+	left: 832px;
+	transform: translateX(-50%) skew(12deg, 0deg);
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.car__door-four {
+	width: 320px;
+	height: 2px;
+	background: rgba(0, 0, 0, 0.021);
+	position: absolute;
+	top: 418px;
+	left: 668px;
+	transform: translateX(-50%) skew(0deg, 0deg);
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.car__door-six {
+	width: 2px;
+	height: 50px;
+	background: rgba(0, 0, 0, 0.021);
+	position: absolute;
+	top: 368px;
+	left: 504px;
+	transform: translateX(-50%) skew(10deg, 0deg);
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.car__door-seven {
+	width: 2px;
+	height: 82px;
+	background: rgba(0, 0, 0, 0.021);
+	position: absolute;
+	top: 286px;
+	left: 500px;
+	transform: translateX(-50%) skew(0deg, 0deg);
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.car__door-eight {
+	width: 4px;
+	height: 68px;
+	background: rgba(0, 0, 0, 0.021);
+	position: absolute;
+	top: 218px;
+	left: 549px;
+	transform: translateX(-50%) skew(-55deg, 0deg);
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.car__door-nine {
+	width: 90px;
+	height: 2px;
+	background: rgba(0, 0, 0, 0.021);
+	position: absolute;
+	top: 213px;
+	left: 642px;
+	transform: translateX(-50%) skew(0deg, -4deg);
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.car__door-ten {
+	width: 137px;
+	height: 2px;
+	background: rgba(0, 0, 0, 0.021);
+	position: absolute;
+	top: 210px;
+	left: 754px;
+	transform: translateX(-50%) skew(0deg, 0deg);
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.car__door-eleven {
+	width: 2px;
+	height: 126px;
+	background: rgba(0, 0, 0, 0.021);
+	position: absolute;
+	top: 292px;
+	left: 682px;
+	transform: translateX(-50%) skew(0deg, 0deg);
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.car__door-twelve {
+	width: 2px;
+	height: 82px;
+	background: rgba(0, 0, 0, 0.021);
+	position: absolute;
+	top: 210px;
+	left: 684px;
+	transform: translateX(-50%) skew(-3deg, 0deg);
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.car__door-handle-front {
+	width: 40px;
+	height: 12px;
+	background: rgba(0, 0, 0, 0.021);
+	position: absolute;
+	top: 310px;
+	left: 650px;
+	border-radius: 20%;
+	transform: translateX(-50%) skew(-3deg, 0deg);
+	box-shadow: inset 0px 2px 5px rgba(172, 172, 172, 0.5), 0px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.car__door-handle-rear {
+	width: 40px;
+	height: 12px;
+	background: rgba(0, 0, 0, 0.021);
+	position: absolute;
+	top: 310px;
+	left: 810px;
+	border-radius: 20%;
+	transform: translateX(-50%) skew(-3deg, 0deg);
+	box-shadow: inset 0px 2px 5px rgba(172, 172, 172, 0.4), 0px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+.cab__detail-twenty-two {
+	width: 75px;
+	height: 20px;
+	background: rgb(5, 117, 182);
+	position: absolute;
+	top: 286px;
+	left: 468px;
+	transform: translateX(-50%) skew(0deg, 0deg);
+}
+
+.cab__detail-twenty-three {
+	width: 268px;
+	height: 14px;
+	background: linear-gradient(0deg, rgba(5, 117, 182, 1) 0%, rgb(8, 162, 252) 100%);
+	position: absolute;
+	top: 280px;
+	left: 1010px;
+	transform: translateX(-50%) skew(0deg, -1deg);
+	border-radius: 10px 10px 0px 0px;
+}
+
+.cab__mirror {
+	width: 35px;
+	height: 30px;
+	background: rgb(5, 117, 182);
+	border-radius: 40% 70%/ 80% 80% 0 0;
+	transform: rotate(-90deg);
+	position: relative;
+	left: 510px;
+	top: 240px;
+	box-shadow: inset 10px 5px 10px rgba(63, 63, 63, 0.5), -10px 5px 10px rgba(44, 44, 44, 0.5);
+	z-index: 1;
+}
+
+.cab__car-bonnet {
+	width: 178px;
+	height: 25px;
+	background: linear-gradient(0deg, rgba(5, 117, 182, 1) 0%, rgb(8, 162, 252) 100%);
+	/* background: rgb(5, 117, 182); */
+	position: absolute;
+	top: 285px;
+	left: 364px;
+	transform: translateX(-50%) skew(15deg, -7deg);
+	border-radius: 90% 20% 0% 0%;
+}
+
+.cab__car-bonnet-one {
+	width: 150px;
+	height: 30px;
+	background: rgba(0, 0, 0, 0);
+	position: absolute;
+	top: 20px;
+	left: 90px;
+	transform: translateX(-50%) skew(0deg, 5deg);
+	border-radius: 90% 0% 100% 0%;
+	box-shadow: inset 2px 3px 5px rgba(201, 201, 201, 0.3);
+}
+
+.car__front-wheel {
+	background-color: rgb(78, 78, 78);
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	position: relative;
+	left: 335px;
+	top: -80px;
+	box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.8);
+	z-index: 2;
+}
+
+.wheel__disk {
+	background-color: rgb(155, 155, 155);
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	position: relative;
+	left: 29px;
+	top: 29px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.9)
+	/* z-index: 2; */
+}
+
+.wheel__subdisk {
+	background-color: rgb(73, 114, 202);
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	position: relative;
+	left: 10px;
+	top: 10px;
+	box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.8)
+	/* z-index: 3; */
+}
+
+.wheel__center {
+	background-color: rgb(151, 151, 151);
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	position: relative;
+	left: 20px;
+	top: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.9)
+	/* z-index: 3; */
+}
+
+.car__rear-wheel {
+	background-color: rgb(78, 78, 78);
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	position: relative;
+	left: 915px;
+	top: -220px;
+	box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.8);
+	z-index: 2;
+
+}
+
+.car__shadow {
+	width: 950px;
+	height: 20px;
+	/* background-color: rgba(0, 0, 0, 0.5); */
+	box-shadow: 10px 40px 20px rgba(0, 0, 0, 0.8);
+	border-radius: 50%;
+	position: relative;
+	left: 220px;
+	top: -270px;
+}
